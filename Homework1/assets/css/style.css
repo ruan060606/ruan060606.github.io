@@ -75,6 +75,11 @@ h2 {
 	font-size: 30px;
 }
 
+p {
+	font-size: 14pt;
+	line-height: 2;
+}
+
 
 .sidebar {
 	position: relative;
