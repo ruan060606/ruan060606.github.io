@@ -1,3 +1,7 @@
+div {
+	overflow: auto;
+}
+
 body {
 	width:100%;
 	margin: auto;
@@ -49,17 +53,18 @@ a {
 }
 
 .content {
+	position: relative;
 	float: left;
 	background-color: #ffffff;
 	width: 650px;
 	margin-top: 125px;
+	margin-right: 20px;
 }
 
 .header2 {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	padding: 20px;
 	margin-left: 20px;
-	margin-right: 20px;
 }
 
 h2 {
@@ -72,11 +77,12 @@ h2 {
 
 
 .sidebar {
+	position: relative;
 	float: left;
 	background-color: #ffffff;
 	width: 270px;
 	margin-top: 125px;
-	margin-left: 50px;
+	margin-left: 10px;
 }
 
 .bio-image {
